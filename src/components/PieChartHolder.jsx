@@ -19,7 +19,7 @@ const PieChartHolder = () => {
                 <p className='text-[19px] font-bold font-sans'>Customers</p>
                 <p className='text-[12px] text-[#c2c2c2]'>Customers that buy products</p>
             </div>
-            <div className='relative hover:scale-105 transition-transform duration-100 cursor-pointer'>
+            <div className='relative'>
                 <PieChart
                     center={[50, 40]}
                     data={data}
