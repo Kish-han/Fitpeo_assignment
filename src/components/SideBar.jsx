@@ -4,14 +4,13 @@ import NavLinks from './NavLinks';
 import { RxHamburgerMenu } from "react-icons/rx";
 import { CgCloseO } from "react-icons/cg";
 import { BiChevronDown } from "react-icons/bi";
-import { motion } from 'framer-motion';
 
 const SideBar = () => {
     const [toogle, setToogle] = useState(false);
 
     return (
         <div>
-            <div className={`${toogle ? 'hidden' : 'md:hidden'} fixed z-50`} onClick={() => { setToogle(true) }}>
+            <div className={`${toogle ? 'hidden' : 'md:hidden'} absolute z-50`} onClick={() => { setToogle(true) }}>
                 <RxHamburgerMenu className='text-[#040440] text-[2em] mt-[1em] ml-[0.5em]' />
             </div>
             <div className={`fixed ${toogle ? 'left-[0%]' : 'left-[-250%]'} md:left-0 right-1 h-[100%] transition-all duration-500 z-40`}>
