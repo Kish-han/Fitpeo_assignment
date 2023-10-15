@@ -17,11 +17,11 @@ Here're some of the project's best features:
 *   Stylish and modern UI created with Tailwind CSS.
 
 <h2>Screen Shots</h2>
-
-![Screenshot 2023-10-16 011947](https://github.com/Kish-han/Fitpeo_assignment/assets/100593727/c64e7bff-29b8-4293-a671-05ba6ac1ee3c)
-![Screenshot 2023-10-16 011937](https://github.com/Kish-han/Fitpeo_assignment/assets/100593727/4134ac9a-09df-4899-93bc-18f22469ed65)
-![Screenshot 2023-10-16 012001](https://github.com/Kish-han/Fitpeo_assignment/assets/100593727/a9ca7ff0-4b02-446d-aadb-953bd33c5975)
-
+<div style={{display: "flex"}}>
+<img src="https://github.com/Kish-han/Fitpeo_assignment/assets/100593727/c64e7bff-29b8-4293-a671-05ba6ac1ee3c" alt='image' width="250rem" />
+<img src="https://github.com/Kish-han/Fitpeo_assignment/assets/100593727/4134ac9a-09df-4899-93bc-18f22469ed65" alt='image' width="250rem" />
+<img src="https://github.com/Kish-han/Fitpeo_assignment/assets/100593727/a9ca7ff0-4b02-446d-aadb-953bd33c5975" alt='image' width="550rem" />
+</div>
 
 <h2>🛠️ Installation Steps:</h2>
 
