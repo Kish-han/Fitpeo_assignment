@@ -8,11 +8,11 @@ import { motion } from 'framer-motion';
 const Cards = ({ title, money, per, red, icon }) => {
     return (
         <motion.div
-            initial={{ opacity: 0, y: 100 }}
+            initial={{ opacity: 0, y: -100 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className='mt-[2.5em]'>
-            <div className='bg-white w-[22em] h-[160px] md:w-[18em] md:h-[142px] xl:w-[19em] xl:h-[140px]  flex items-center justify-around px-3 rounded-lg shadow-md'>
+            transition={{ duration: 1 }}
+            className='mt-[2.5em] xl:mt-0'>
+            <div className='bg-white w-[22em] h-[160px] md:w-[18em] md:h-[142px] xl:w-[19em] xl:h-[140px]  flex items-center justify-around px-3 rounded-lg shadow-md hover:scale-105 transition-transform duration-100 cursor-pointer'>
                 <div className={`${icon === 'TbCurrencyRupee' ? 'bg-[#deffee]'
                     : icon === 'CgNotes' ? 'bg-[#e7dbff]' : icon === 'TfiWallet' ? 'bg-[#ccf2ff]' : 'bg-[#ffc3e6]'} w-[8em] h-[8em] rounded-full flex items-center justify-center md:mr-2`}>
                     {

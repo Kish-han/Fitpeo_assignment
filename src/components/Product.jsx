@@ -5,7 +5,7 @@ import { BiChevronDown } from "react-icons/bi";
 
 const Product = ({ img, name }) => {
     return (
-        <div className='font-sans flex items-center justify-between px-4 mt-4'>
+        <div className='font-sans flex items-center justify-between px-4 mt-4 hover:scale-105 transition-transform duration-100 cursor-pointer'>
             <div className='flex items-center'>
                 <div className='w-[6rem] h-[4rem] mr-4 rounded-md'>
                     <img className='w-full h-full rounded-md' src={img} />

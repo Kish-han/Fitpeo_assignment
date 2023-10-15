@@ -5,8 +5,13 @@ import { motion } from 'framer-motion';
 const Barchart = () => {
 
     return (
-        <div className='bg-white w-[100%] lg:w-[60%] xl:w-[65%] h-[21rem] py-[1rem] rounded-lg shadow-md xl:ml-[1rem]'>
-            <div className='flex items-center justify-between px-[2rem] mb-2'>
+        <motion.div 
+        initial={{ opacity: 0, y: -100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 1}}
+        className='bg-white w-[100%] lg:w-[60%] xl:w-[65%] h-[21rem] py-[1rem] rounded-lg shadow-md xl:ml-[1rem]'>
+            <div className='flex items-center justify-between px-[2rem] mb-2 '>
                 <div>
                     <h2 className='text-[19px] font-bold font-sans'>Overview</h2>
                     <p className='text-[12px] text-[#c2c2c2]'>Monthly Earning</p>
@@ -66,7 +71,7 @@ const Barchart = () => {
                     <p>Dec</p>
                 </div>
             </div>
-        </div>
+        </motion.div>
     )
 }
 

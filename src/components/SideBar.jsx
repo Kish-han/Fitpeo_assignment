@@ -32,7 +32,7 @@ const SideBar = () => {
                             <NavLinks icon='MdOutlineLiveHelp' text='Help' />
                         </div>
                     </div>
-                    <div className='flex items-center  absolute bottom-10 right-[25px] md:right-[5px] xl:right-[20px] left-[25px] md:left-[5px]  xl:left-[20px] text-[#888daa] bg-[#2d2d69] py-2 px-2 rounded-md'>
+                    <div className='flex items-center  absolute bottom-10 right-[25px] md:right-[5px] xl:right-[20px] left-[25px] md:left-[5px]  xl:left-[20px] text-[#888daa] bg-[#2d2d69] py-2 px-2 rounded-md z-50'>
                         <div className='w-[35px] h-[35px] mr-3'>
                             <img className='w-full h-full object-cover rounded-full' src='https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250' />
                         </div>
